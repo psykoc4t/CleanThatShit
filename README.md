@@ -8,9 +8,9 @@ Le script accepte deux manières de lui préciser les infos dont il a besoin.
 
 Appel du script avec des arguments:
 
-
+<blockquote>
 .\cleanThatShit.ps1 nom_du_serveur dossier_a_purger retention
- 
+ </blockquote>
 
 * nom_du_serveur = string
 * dossier_a_purger = chemin du type c:\test (en local) ou e$\test (à distance)
@@ -18,9 +18,9 @@ Appel du script avec des arguments:
 
 Appel du script avec un fichier database passé en argument:
 
-
+<blockquote>
 .\cleanThatShit.ps1 fichier.db
- 
+ </blockquote>
 
 ##Le fichier DB
 
@@ -31,11 +31,11 @@ Le fichier db contiendra explicitement tous les dossiers et sous dossier a trait
 /!\ IMPORTANT: Si un dossier n’est pas dans la liste de manière explicite il ne sera pas traité.
 Voici un exemple de contenu
 
-
+<blockquote>
 nomDuServeur,repertoireAvider,NbJourRetention
 localhost,C:\test,0
 Serveur01,e$\REP\archive\backup,60
- 
+ </blockquote>
 
 Si le serveur à purger est distant, vous devez entrer le dossier « e$\votre_dossier ».
 Pour vous aider, vous devez prendre le même format que son chemin réseau .(ex:\\Serveur01\e$\REP\archive\backup).
