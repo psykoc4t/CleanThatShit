@@ -31,11 +31,11 @@ Le fichier db contiendra explicitement tous les dossiers et sous dossier a trait
 /!\ IMPORTANT: Si un dossier n’est pas dans la liste de manière explicite il ne sera pas traité.
 Voici un exemple de contenu
 
-<section>
-nomDuServeur,repertoireAvider,NbJourRetention
+
+**nomDuServeur,repertoireAvider,NbJourRetention**
 localhost,C:\test,0
 Serveur01,e$\REP\archive\backup,60
-</section>
+
 
 Si le serveur à purger est distant, vous devez entrer le dossier « e$\votre_dossier ».
 Pour vous aider, vous devez prendre le même format que son chemin réseau .(ex:\\Serveur01\e$\REP\archive\backup).
