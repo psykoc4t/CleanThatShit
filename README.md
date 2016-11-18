@@ -13,7 +13,9 @@ Appel du script avec des arguments:
  
 
 *nom_du_serveur = string
+
 *dossier_a_purger = chemin du type c:\test (en local) ou e$\test (à distance)
+
 *retention = integer
 
 Appel du script avec un fichier database passé en argument:
