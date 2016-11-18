@@ -32,7 +32,7 @@ Le fichier db contiendra explicitement tous les dossiers et sous dossier a trait
 Voici un exemple de contenu
 
 
-**nomDuServeur,repertoireAvider,NbJourRetention**
+nomDuServeur,repertoireAvider,NbJourRetention
 localhost,C:\test,0
 Serveur01,e$\REP\archive\backup,60
 
