@@ -12,11 +12,11 @@ Appel du script avec des arguments:
 .\cleanThatShit.ps1 nom_du_serveur dossier_a_purger retention
  
 
-*nom_du_serveur = string
++nom_du_serveur = string
 
-*dossier_a_purger = chemin du type c:\test (en local) ou e$\test (à distance)
++dossier_a_purger = chemin du type c:\test (en local) ou e$\test (à distance)
 
-*retention = integer
++retention = integer
 
 Appel du script avec un fichier database passé en argument:
 
