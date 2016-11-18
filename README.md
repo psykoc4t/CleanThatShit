@@ -2,7 +2,7 @@
 
 CleanThatShit est un script Powershell permettant de purger le contenu de répertoires sur des serveurs Windows distant.
 
-Appel du script
+##Appel du script
 
 Le script accepte deux manières de lui préciser les infos dont il a besoin.
 
@@ -22,7 +22,7 @@ Appel du script avec un fichier database passé en argument:
 .\cleanThatShit.ps1 fichier.db
  
 
-Le fichier DB
+##Le fichier DB
 
 Les fichiers .db présents dans le dossier database doivent avoir le format suivant:
 nomDuServeur;repertoireAVider;NbJourRetention
@@ -41,7 +41,7 @@ Si le serveur à purger est distant, vous devez entrer le dossier « e$\votre_do
 Pour vous aider, vous devez prendre le même format que son chemin réseau .(ex:\\Serveur01\e$\REP\archive\backup).
 Si le chemin du dossier à purger est local au script, vous pouvez spécifier le chemin de cette façon « c:\votre_dossier »
 
-Les logs
+##Les logs
 
 Deux types de logs: Logs HTML présents dans le dossier LOGS à la racine du répertoire où se trouve le script récapitulant les dossiers purgés ainsi que les dossiers ne l’étant pas.
 
